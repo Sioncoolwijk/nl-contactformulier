@@ -47,6 +47,7 @@ function sendEmail() {
   if (emptyElementCount > 0) {
     var errorMessage = document.getElementById("error-message");
     errorMessage.style.display = "block"; 
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
     return
   }
   errorMessage.style.display = "none"; 
@@ -68,7 +69,8 @@ function sendEmail() {
 
   // Display succes message
   var successMessage = document.getElementById("success-message");
-  successMessage.style.display = "block"; 
+  successMessage.style.display = "block";
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
 
   // Clear all input fields
   var elementIdsAll = ['email', 'voornaam', 'achternaam', 'adres', 'toevoeging', 'postcode', 'stad', 'telefoonnummer', 'datum'];
