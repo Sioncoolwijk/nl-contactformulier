@@ -3,7 +3,10 @@
 # Nederlands Contactformulier voor website
 ### Functie
 Dit Nederlandstalige contactformulier is ontworpen voor het aanvragen van offertes. Het maakt gebruik van SMTP om e-mails te verzenden, maar het vereist nog wel configuratie van een host voordat het daadwerkelijk e-mails kan versturen. Met dit formulier kun je eenvoudig e-mails naar jezelf sturen, zodat ze in je eigen inbox terechtkomen.
+
 Dit contactformulier heeft een universele foutmelding als er een verplicht veld niet is ingevuld, en in dat geval wordt er geen e-mail verstuurd. Als alle vereiste velden correct zijn ingevuld, wordt de e-mail succesvol verzonden.
+
+Hiernaast heeft het formulier een responsief karakter: de placeholders zullen omhoog schuiven en plaatse maken voor de input op het moment dat er wordt geklikt op een veld
 
 
 ## Instructies
