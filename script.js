@@ -70,4 +70,10 @@ function sendEmail() {
   var successMessage = document.getElementById("success-message");
   successMessage.style.display = "block"; 
 
+  // Clear all input fields
+  elementIds.forEach(function (elementId) {
+    var element = document.getElementById(elementId);
+    element.value = ''; // Set the value to an empty string
+  });
+
 };
