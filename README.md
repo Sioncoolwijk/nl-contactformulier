@@ -16,3 +16,5 @@ Om dit contactformulier werkend te krijgen, moeten de volgende stappen worden ge
 Een voorbeeld van een gratis SMTP-host is Elastic Email. Je kunt overwegen om Elastic Email in te stellen als je host voor dit contactformulier.
 
 **Opmerking:** Zorg ervoor dat je vertrouwd bent met de SMTP-configuratie en dat je de benodigde beveiligingsmaatregelen neemt om te voorkomen dat je e-mails in de spamfolder belanden of misbruikt worden voor ongewenste doeleinden.
+
+![Screenshot 2023-10-04 at 17 02 38](https://github.com/Sioncoolwijk/nl-contactformulier/assets/70899366/2451c92c-1d63-4216-b3de-0ccbb3edf0e6)
