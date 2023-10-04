@@ -49,6 +49,7 @@ function sendEmail() {
     errorMessage.style.display = "block"; 
     return
   }
+  errorMessage.style.display = "none"; 
 
   // Else send with SMTP (fill in details)
   Email.send({
