@@ -178,8 +178,6 @@ textarea:focus {
     font-size: 0.65em;
     background-color: white;
     padding: 0px 6px;
-    border-left: 1px solid goldenrod;
-    border-right: 1px solid goldenrod;
 }
 
 .button {
