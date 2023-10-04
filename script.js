@@ -71,7 +71,8 @@ function sendEmail() {
   successMessage.style.display = "block"; 
 
   // Clear all input fields
-  elementIds.forEach(function (elementId) {
+  var elementIdsAll = ['email', 'voornaam', 'achternaam', 'adres', 'toevoeging', 'postcode', 'stad', 'telefoonnummer', 'datum'];
+  elementIdsAll.forEach(function (elementId) {
     var element = document.getElementById(elementId);
     element.value = ''; // Set the value to an empty string
   });
