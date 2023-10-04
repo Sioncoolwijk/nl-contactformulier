@@ -20,4 +20,4 @@ Een voorbeeld van een gratis SMTP-host is Elastic Email. Je kunt overwegen om El
 
 **Opmerking:** Zorg ervoor dat je vertrouwd bent met de SMTP-configuratie en dat je de benodigde beveiligingsmaatregelen neemt om te voorkomen dat je e-mails in de spamfolder belanden of misbruikt worden voor ongewenste doeleinden.
 
-![Screenshot 2023-10-04 at 17 02 38](https://github.com/Sioncoolwijk/nl-contactformulier/assets/70899366/2451c92c-1d63-4216-b3de-0ccbb3edf0e6)
+<img width="642" alt="Screenshot 2023-10-04 at 19 30 22" src="https://github.com/Sioncoolwijk/nl-contactformulier/assets/70899366/99e90af8-e4c1-4c25-8404-5b3e1300c311">
