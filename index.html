@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link type="text/css" rel="stylesheet" href="style.css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script defer src="script.js"></script>
+   </head>
+   <body>
+
+         <div class="container">
+            <div class="contact-form">
+               <h2>Vraag een offerte aan!</h2>
+               <h4>
+               We reageren binnen 24 uur</h3>
+               <div id="success-message" class="success-message hidden">
+                  Verstuurd! Bedankt voor het aanvragen van een offerte. <br>We nemen binnen 24 uur contact met je op.
+               </div>
+               <div id="error-message" class="error-message hidden">
+                  Voer a.u.b. alle vereiste gegevens in
+               </div>
+               <form id="form" method="post" name="form" novalidate>
+                  <div class="input-control">
+                     <input type="text" id="email" name="email" required>
+                     <span class="placeholder">E-mail</span>
+                     <div></div>
+                  </div>
+                  <div class = "names-container">
+                     <div  class="input-control">
+                        <input type="text" id="voornaam" name="voornaam" required>
+                        <span class="placeholder">Voornaam (optioneel)</span>
+                        <div></div>
+                     </div>
+                     <div class="input-control">
+                        <input type="text" id="achternaam" name="achternaam" required>
+                        <span class="placeholder achternaam-placeholder">Achternaam</span>
+                        <div></div>
+                     </div>
+                  </div>
+                  <div class="input-control">
+                     <input type="text" id="adres" name="adres" required>
+                     <span class="placeholder">Straat + huisnummer</span>
+                     <div></div>
+                  </div>
+                  <div class="input-control">
+                     <input type="text" id="toevoeging" name="toevoeging" required>
+                     <span class="placeholder">Toevoeging (optioneel)</span>
+                     <div></div>
+                  </div>
+                  <div class = "names-container">
+                     <div class="input-control">
+                        <input type="text" id="postcode" name="postcode" required>
+                        <span class="placeholder">Postcode</span>
+                        <div></div>
+                     </div>
+                     <div class="input-control">
+                        <input type="text" id="stad" name="stad"required>
+                        <span class="placeholder achternaam-placeholder">Stad</span>
+                        <div></div>
+                     </div>
+                  </div>
+                  <div class="input-control">
+                     <input type="text" id="telefoonnummer" name="telefoonnummer" required>
+                     <span class="placeholder">Telefoonnummer</span>
+                     <div></div>
+                  </div>
+                  <div class="input-control">
+                     <textarea class="message" id="bericht" name="myTextarea" style="resize: none;" required></textarea>
+                     <span class="placeholder">Bericht (optioneel)</span>
+                     <div class="error"></div>
+                  </div>
+                  <input class='button' type="button" value='Verstuur' onclick="sendEmail()"/>
+               </form>
+            </div>
+         </div>
+   </body>
+</html>
