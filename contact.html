@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sint en Piet - Contact</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/9049/9049458.png">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="navbar-left">
+                <div><img src="https://cdn-icons-png.flaticon.com/512/9049/9049458.png "></div>
+                <div><a href=over-ons.html>Over ons</a></div>
+                <div><a href=contact.html>Contact</a></div>
+            </div>
+        </div>
+
+        <div class="divider">
+
+        </div>
+    </header>
+    <main>
+        <div class="container"> 
+        
+            <div class="contact-form">
+                <h2>Vraag een offerte aan!</h2>
+                <h4>We reageren binnen 24 uur</h3>
+                    <div id="success-message" class="success-message hidden">
+                        Verstuurd! Bedankt voor het aanvragen van een offerte. <br>We nemen binnen 24 uur contact met je op.
+                    </div>
+                    <div id="error-message" class="error-message hidden">
+                        Voer a.u.b. alle vereiste gegevens in
+                    </div>
+                <form id="form" method="post" name="form" novalidate>
+
+                    <div class="input-control">
+                        <input type="text" id="email" name="email" required>
+                        <span class="placeholder">E-mail</span>
+                        <div></div>
+                    </div>
+
+                <div class = "names-container">
+                    <div  class="input-control">
+                        <input type="text" id="voornaam" name="voornaam" required>
+                        <span class="placeholder">Voornaam (optioneel)</span>
+                        <div></div>
+
+                    </div>
+            
+                    <div class="input-control">
+                        <input type="text" id="achternaam" name="achternaam" required>
+                        <span class="placeholder achternaam-placeholder">Achternaam</span>
+                        <div></div>
+                    </div>
+                </div>
+                    
+                    <div class="input-control">
+                        <input type="text" id="adres" name="adres" required>
+                        <span class="placeholder">Straat + huisnummer</span>
+                        <div></div>
+                    </div>
+                    
+                    <div class="input-control">
+                        <input type="text" id="toevoeging" name="toevoeging" required>
+                        <span class="placeholder">Toevoeging (optioneel)</span>
+                        <div></div>
+                    </div>
+                    
+                <div class = "names-container">
+                    <div class="input-control">
+                        <input type="text" id="postcode" name="postcode" required>
+                        <span class="placeholder">Postcode</span>
+                        <div></div>
+                    </div>
+                    
+                    <div class="input-control">
+                        <input type="text" id="stad" name="stad"required>
+                        <span class="placeholder achternaam-placeholder">Stad</span>
+                        <div></div>
+                    </div>
+                </div>
+                    
+                    <div class="input-control">
+                        <input type="text" id="telefoonnummer" name="telefoonnummer" required>
+                        <span class="placeholder">Telefoonnummer</span>
+                        <div></div>
+                    </div>
+
+                    <div class="input-control">
+                        <select id="datum" name="datum" class="select-style" required>
+                        <option id='selecteer-datum' name="selecteer-datum" value="" selected disabled>Selecteer een datum</option>
+                        <option value="1 december">1 december</option>
+                        <option value="2 december">2 december</option>
+                        <option value="3 december">3 december</option>
+                        <option value="4 december">4 december</option>
+                        <option value="5 december">5 december</option>
+                        </select>
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="input-control">
+                        <textarea class="message" id="bericht" name="myTextarea" style="resize: none;" required></textarea>
+                        <span class="placeholder">Bericht (optioneel)</span>
+                        <div class="error"></div>
+                    </div>            
+                    
+                    <input class='button' type="button" value='Verstuur' onclick="sendEmail()"/>
+                </form>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 - Sint en Piet aan Huis</p>
+    
+    </footer>
+
+
+</body>
+
+
+
+
+</html>
+
+
+
