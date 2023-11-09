@@ -44,7 +44,7 @@ h4 {
 
 /* Big square form */
 .contact-form {
-    max-width: calc(100vh - 25%);
+    max-width: calc(60em - 25%);
     overflow-y: auto;
     margin: 0 auto;
     padding: 20px;
